@@ -13,7 +13,7 @@ export const mockSendAMessageTextData = {
             {
                 language: 'it',
                 id: 2,
-                text: "Ciao"
+                text: "Ciao {{username}}"
             },
             {
                 language: 'en',

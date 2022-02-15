@@ -1,7 +1,7 @@
 
 import { ApiBlock } from "./blocks/api.block";
 import { IfBlock } from "./blocks/if.block";
-import { SendAMessageText } from "./blocks/send-message/text.block";
+import { SendAMessageText } from "./blocks/send-message/block";
 
 export const executeApiBlock = async ()=>{
    
@@ -19,7 +19,7 @@ export const executeApiBlock = async ()=>{
 //         }
 //     })
 
-    const sendAMessage = new SendAMessageText({language: 'en'})
+    const sendAMessage = new SendAMessageText({language: 'it'})
 
     sendAMessage.execute({})
 

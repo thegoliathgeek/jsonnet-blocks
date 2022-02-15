@@ -31,7 +31,7 @@ export type Config = {
     [channel in Channels]?: ChannelConfig;
 };
 
-export interface SendMessage {
+export interface SendMessage extends MainBlock {
     type: SendMessageType
     config: Config
     blockId: string
